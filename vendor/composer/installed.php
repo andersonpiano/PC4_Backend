@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '56a4e5a43e985b3da05f3d6e82cd0938348990cb',
+    'reference' => '997b561293f66ba9a40002766b1e2a006c370096',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -436,7 +436,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '56a4e5a43e985b3da05f3d6e82cd0938348990cb',
+      'reference' => '997b561293f66ba9a40002766b1e2a006c370096',
     ),
     'laravel/sail' => 
     array (
@@ -455,6 +455,15 @@
       array (
       ),
       'reference' => '04ad32c1a3328081097a181875733fa51f402083',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.3.0',
+      'version' => '3.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '07d725813350c695c779382cbd6dac0ab8665537',
     ),
     'lcobucci/jwt' => 
     array (
