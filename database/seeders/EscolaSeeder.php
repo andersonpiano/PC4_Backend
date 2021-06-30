@@ -2,11 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\aluno;
+use App\Models\escola;
 use Illuminate\Database\Seeder;
 
-
-class AlunoSeeder extends Seeder
+class EscolaSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,6 +14,6 @@ class AlunoSeeder extends Seeder
      */
     public function run()
     {
-        aluno::factory(10)->create();
+        escola::factory(10)->create();
     }
 }

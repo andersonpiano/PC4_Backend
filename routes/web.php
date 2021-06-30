@@ -5,6 +5,7 @@ use App\Http\Controllers\AlunoController;
 use App\Http\Controllers\EscolaController;
 use App\Http\Controllers\TurmaController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+Route::get('users', [UserController::class, 'index'])->name('users.index');
+
 
 Route::get('alunos/inserir', [AlunoController::class, 'inserir'])->name('alunos.inserir');
 Route::post('alunos', [AlunoController::class, 'insert'])->name('alunos.inserir_tabela');
